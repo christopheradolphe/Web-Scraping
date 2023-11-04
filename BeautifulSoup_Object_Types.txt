@@ -1,0 +1,15 @@
+#BeautifulSoup Objects
+
+BeautifulSoup objects:
+Instances seen by instantiating bs = BeautifulSoup(html.read(), 'html.parser')
+
+Tag objects:
+Retrieved in lists, or retrieved individually by calling find and find_all on a BeautifulSoup object, or drilling down, as follows:
+bs.div.h1
+
+
+NavigableString objects:
+Used to represent text within tags, rather than the tags themselves (some functions operate on and produce NavigableStrings, rather than tag objects).
+
+Comment object
+Used to find HTML comments in comment tags, <!--like this one-- >.
